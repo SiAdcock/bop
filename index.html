@@ -1,21 +1,27 @@
 <html lang="en">
   <head>
     <title>BOP</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <main>
       <h1>BOP</h1>
-      <section class="board">
-        <div class="board__region">1</div>
-        <div class="board__region">2</div>
-        <div class="board__region">3</div>
-        <div class="board__region">4</div>
-        <div class="board__region">5</div>
-        <div class="board__region">6</div>
-        <div class="board__region">7</div>
-        <div class="board__region">8</div>
-        <div class="board__region">9</div>
+      <div>
+        Region:
+        <input type="text" id="region-name" class="region-name" disabled />
+      </div>
+      <section class="board" id="board">
+        <div class="board__region" data-region-id="1">1</div>
+        <div class="board__region" data-region-id="2">2</div>
+        <div class="board__region" data-region-id="3">3</div>
+        <div class="board__region" data-region-id="4">4</div>
+        <div class="board__region" data-region-id="5">5</div>
+        <div class="board__region" data-region-id="6">6</div>
+        <div class="board__region" data-region-id="7">7</div>
+        <div class="board__region" data-region-id="8">8</div>
+        <div class="board__region" data-region-id="9">9</div>
       </section>
     </main>
+    <script src="main.js" async></script>
   </body>
 </html>

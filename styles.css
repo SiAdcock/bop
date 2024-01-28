@@ -1,11 +1,18 @@
 body {
 }
 
+.region-name {
+}
+
 .board {
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 96px;
 }
 
 .board__region {
   width: 100px;
   height: 100px;
+  border: 1px solid #000;
+  cursor: pointer;
 }
