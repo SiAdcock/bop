@@ -1,0 +1,11 @@
+body {
+}
+
+.board {
+  display: grid;
+}
+
+.board__region {
+  width: 100px;
+  height: 100px;
+}
